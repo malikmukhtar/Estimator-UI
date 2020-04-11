@@ -11,40 +11,52 @@
     <div class="container">
         <div class="header">
             <h2>
-                Create Account
+                Covid-19 Estimator
             </h2>
         </div>
         <form class="form" id="form">
             <div class="form-control">
-                <label>Username</label>
-                <input type="text" placeholder="malikmukhtar" id="username">
+                <label>Population</label>
+                <input type="number" placeholder="0" id="population" data-population="">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
-                <label>Email</label>
-                <input type="email" placeholder="hello@malik.com" id="email">
+                <label>Time to Elapse</label>
+                <input type="number" placeholder="0" id="timeToElapse" data-time-to-elapse="">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
-                <label>Password</label>
-                <input type="password" placeholder="Password" id="password">
+                <label>Reported Cases</label>
+                <input type="number" placeholder="0" id="reportedCases" data-reported-cases="">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
-                <label>Password check</label>
-                <input type="password" placeholder="repeat password" id="password2">
+                <label>Total Hospital Beds</label>
+                <input type="number" placeholder="0" id="totalHospitalBeds" data-total-hospital-beds="">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Period Type</label>
+                <input type="" placeholder="0" id="totalHospitalBeds" data-total-hospital-beds="">
+                <select id="select" class="select">
+                    <option value="days">Days</option>
+                    <option value="weeks">Weeks</option>
+                    <option value="months">Months</option>
+               </select>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
 
-            <button>Submit</button>
+            <button data-go-estimate="">Submit</button>
         </form>
     </div>
 
