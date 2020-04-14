@@ -17,35 +17,35 @@
         <form class="form" id="form">
             <div class="form-control">
                 <label for="data-population">Population</label>
-                <input type="number" placeholder="0" id="population" data-population="population">
+                <input type="text" name="Population"id="data-population" placeholder="Enter population for region/city..." required data-population="population">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
                 <label for="data-time-to-elapse">Time to Elapse</label>
-                <input type="number" placeholder="0" id="timeToElapse" data-time-to-elapse="timeToElapse">
+                <input type="text" data-time-to-elapse="timeToElapse" name="Period" id="data-time-to-elapse" placeholder="Enter Time in Days/Weeks/Months..." required>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
                 <label for="data-reported-cases">Reported Cases</label>
-                <input type="number" placeholder="0" id="reportedCases" data-reported-cases="reportedCases">
+                <input type="text" data-reported-cases="reportedCases" name="Reported Cases" id="data-reported-cases" placeholder="Home many reported cases?" required>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
                 <label for="data-total-hospital-beds">Total Hospital Beds</label>
-                <input type="number" placeholder="0" id="totalHospitalBeds" data-total-hospital-beds="totalHospitalBeds">
+                <input type="text" data-total-hospital-beds="totalHospitalBeds" name="Beds" id="data-total-hospital-beds" placeholder="How many available beds?" required>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error Message</small>
             </div>
             <div class="form-control">
                 <label for="data-period-type">Period Type</label>
-                <input type="" placeholder="0" id="totalHospitalBeds" data-period-type="periodType">
+                <input type="text" data-period-type="periodType" id="data-period-type" name="periodType" required>
                 <select id="select" class="select">
                     <option value="days">Days</option>
                     <option value="weeks">Weeks</option>
